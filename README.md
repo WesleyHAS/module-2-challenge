@@ -22,7 +22,7 @@ Please visit following link to see final results
 
 ## Credits
 
-N/A
+Credits to Martin Martz (martz90) for the background picture.
 
 ## License
 
