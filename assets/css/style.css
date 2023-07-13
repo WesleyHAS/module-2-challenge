@@ -1,27 +1,71 @@
-* {
+body {
+  background-color: #fdfdfd;
+}
+
+header {
+  background-color: #6883BC;
+  color: #6883BC;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+header h1 {
+  background-color: #E2D1F9;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  margin-left: auto;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 a {
-  color: #ffffff;
+  color: #E2D1F9;
   text-decoration: none;
 }
 
 body {
-  background-color: rgb(186, 186, 243);
+  background-color: #fdfdfd;
 }
 
 header {
-  background-color: rgb(120, 120, 247);
-  color: #ffffff;
+  background-color: #6883BC;
+  color: #6883BC;
   padding: 10px 0;
 }
 
 header h1 {
   display: inline-block;
-  background-color: black;
+  background-color: #E2D1F9;
   padding-left: 60px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -54,9 +98,9 @@ figure {
 
 figcaption {
   font-size: 30px;
-  color: white;
+  color: #6883BC;
   float: right;
-  background-color: black;
+  background-color: #E2D1F9;
   padding: 5px 10px;
   margin-top: 130px;
   margin-right: 90px;
@@ -114,14 +158,14 @@ footer {
 footer ul {
   list-style-type: none;
   font-size: 20px;
-  position: absolute;
-  left: 350px;
+  position: relative;
+  font-weight: bold;
+  align-items: center;
 }
 
 footer ul li {
   display: inline-block;
   position: relative;
-  left: 100px;
-  top: 100px;
+  top: 55px;
   padding: 20px;
-}
+} */
