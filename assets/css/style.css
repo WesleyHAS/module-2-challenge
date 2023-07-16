@@ -1,23 +1,37 @@
+:root {
+  --pinkish: #DEACF5;
+  --light-purple: #9754CB;
+  --dark-purple: #6237A0;
+  --evendarker: #28104E;
+  --off-white: #FAF9F6;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
-  background-color: #fdfdfd;
+  background-color: var(--off-white);
 }
 
 header {
-  background-color: #6883BC;
-  color: #6883BC;
+  background-color: var(--evendarker);
+  color: var(--evendarker);
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 15px 0;
 }
 
 header h1 {
-  background-color: #E2D1F9;
+  background-color: var(--pinkish);
   font-size: 50px;
   display: flex;
   align-items: center;
   padding-left: 60px;
   padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
 }
 
 .navbar {
@@ -39,6 +53,7 @@ header h1 {
 }
 
 .nav-item a {
+  color: var(--pinkish);
   text-decoration: none;
 }
 
@@ -52,9 +67,9 @@ header h1 {
 
 figcaption {
   font-size: 30px;
-  color: #6883BC;
+  color: var(--evendarker);
   float: right;
-  background-color: #E2D1F9;
+  background-color: var(--pinkish);
   padding: 5px 10px;
   margin-top: 130px;
   margin-right: 90px;
@@ -62,14 +77,15 @@ figcaption {
 
 .main-containers {
   display: flex;
-  margin-bottom: 30px;
+  margin: 40px 0;
 }
 
 .left-container {
   font-size: 40px;
   text-align: right;
-  padding: 30px;
-  border-right: solid black 3px;
+  padding: 15px;
+  border-right: solid var(--dark-purple) 3px;
+  color: var(--dark-purple);
   min-width: 15%;
 }
 
@@ -77,6 +93,7 @@ figcaption {
   display: flex;
   align-items: center;
   margin-left: 30px;
+  color: var(--dark-purple);
 }
 
 .right-container-images {
@@ -86,16 +103,39 @@ figcaption {
   width: 100%;
 }
 
-.images-1 {
-  padding: 20px 0;
-  width: 90%;
-  height: 500px;
+.right-container-top-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.images-2 {
-  padding: 20px 0;
+.right-container-middle-img {
+  width: 69%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.right-container-bottom-img {
+  width: 69%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img-1 {
+  margin: 20px;
+  width: 65%;
+  height: 400px;
+  position: relative;
+}
+
+.img-2 {
+  margin: 20px;
   width: 45%;
   height: 200px;
+}
+
+img {
+  border: solid var(--dark-purple) 5px;
 }
 
 .right-container li {
@@ -105,4 +145,6 @@ figcaption {
 
 .right-container li a {
   text-decoration: none;
+  color: var(--dark-purple);
+  border-bottom: solid var(--dark-purple) 4px;
 }
