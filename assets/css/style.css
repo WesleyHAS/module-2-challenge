@@ -112,6 +112,36 @@ header h1 {
   justify-content: center;
 }
 
+.right-container-middle-img {
+  width: 69%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.right-container-bottom-img {
+  width: 69%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.top-image-centering {
+  position: relative;
+  width: 100%;
+}
+
+.image-container-link-top {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.image-container-link {
+  position: relative;
+  width: 45%;
+}
+
 .top-image-captions {
   position: absolute;
   bottom: 10%;
@@ -132,35 +162,6 @@ header h1 {
   padding: 30px 30px;
   font-weight: bold;
   font-size: 20px;
-}
-
-.container-fix {
-  position: relative;
-  width: 100%;
-}
-
-.right-container-middle-img {
-  width: 69%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.image-container-link-top {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  cursor: pointer;
-}
-
-.image-container-link {
-  position: relative;
-  width: 45%;
-}
-
-.right-container-bottom-img {
-  width: 69%;
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .img-1 {
