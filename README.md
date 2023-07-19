@@ -24,6 +24,8 @@ Please visit following link to see final results
 
 Credits to Martin Martz (martz90) for the background picture.
 
+https://unsplash.com/@martz90
+
 ## License
 
 Please refer to the LICENSE in the repo.
