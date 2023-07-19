@@ -71,9 +71,10 @@ header h1 {
   color: var(--evendarker);
   float: right;
   background-color: var(--pinkish);
-  padding: 5px 10px;
+  padding: 10px 20px;
   margin-top: 130px;
   margin-right: 90px;
+  font-weight: bold;
 }
 
 .main-containers {
@@ -107,23 +108,16 @@ header h1 {
 }
 
 .right-container-top-img {
-  width: 100%;
+  width: 99%;
   display: flex;
   justify-content: center;
 }
 
-.right-container-middle-img {
-  width: 69%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .right-container-bottom-img {
-  width: 69%;
+  width: 69.5%;
   display: flex;
   justify-content: space-evenly;
 }
-
 
 .top-image-centering {
   position: relative;
@@ -133,7 +127,7 @@ header h1 {
 .image-container-link-top {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 101%;
   cursor: pointer;
 }
 
@@ -153,6 +147,12 @@ header h1 {
   font-size: 25px;
 }
 
+.captions-top-description {
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
 .bottom-image-captions {
   position: absolute;
   bottom: 10%;
@@ -162,6 +162,12 @@ header h1 {
   padding: 30px 30px;
   font-weight: bold;
   font-size: 20px;
+}
+
+.captions-bottom-description {
+  padding-top: 15px;
+  font-size: 12px;
+  font-weight: lighter;
 }
 
 .img-1 {
@@ -181,7 +187,7 @@ img {
 }
 
 .right-container li {
-  padding: 20px 70px;
+  padding: 20px 110px;
   font-size: 30px;
 }
 
