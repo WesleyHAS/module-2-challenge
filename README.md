@@ -12,13 +12,13 @@ N/A
 
 Please visit following link to see final results 
 
-
+https://wesleyhas.github.io/personal-portfolio-project/
 
 ## Preview of Page
 
+![Screentshot 1](./assets/images/page-preview-1.png)
 
-
-
+![Screentshot 2](./assets/images/page-preview-2.png)
 
 ## Credits
 
